@@ -7,13 +7,13 @@ body {
         .holder {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: space-evenly; /* Use space-evenly instead of space-between */
         }
         .item {
             background-color: lightblue;
             padding: 20px;
             margin: 10px;
-            flex: 0 0 calc(33.33% - 20px); /* Set item width to 33.33% with spacing of 20px between items */
+            flex: 0 0 calc(33.33% - 20px);
             box-sizing: border-box;
             text-align: center;
         }
